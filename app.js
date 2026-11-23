@@ -91,7 +91,7 @@ function select(p){if(map.getLayer('selected'))map.setFilter('selected',['==',['
 // ---- Filtres ----
 // Filtres
 const count = id => id==='route'?STAGES.length:id==='rando'?TRAILS.length:PLACES.filter(p=>p.cat===id).length;
-function renderChips(){document.getElementById('chips').innerHTML = CATS.map(c=>
+function renderChips(){document.getElementById('chips').innerHTML = CATS.filter(c=>count(c.id)>0).map(c=>
   `<button class="chip" data-cat="${c.id}" aria-pressed="${on[c.id]}"><span class="ic" style="background:${color(c.id)}">${I[c.id]}</span>${c.label}<span class="n">${count(c.id)}</span></button>`).join('')}
 renderChips();
 function renderSubs(){const el=document.getElementById('subchips');el.hidden=!on.manger;
@@ -106,7 +106,7 @@ document.getElementById('chips').addEventListener('dblclick',e=>{const b=e.targe
   CATS.forEach(c=>{on[c.id]=c.id===b.dataset.cat;applyCat(c.id)});drawPlaces();renderChips();renderSubs();render()});
 // Panneau
 const sheet=document.getElementById('sheet'),body=document.getElementById('body'),fabs=document.getElementById('fabs');
-let tab='trip',view=null;
+let tab='list',view=null;
 function setSize(s){sheet.classList.remove('min','max');if(s)sheet.classList.add(s);placeFabs()}
 function placeFabs(){requestAnimationFrame(()=>{const h=sheet.getBoundingClientRect().height,w=innerWidth>=760;fabs.style.bottom=(w?24:h+12)+'px';document.documentElement.style.setProperty('--sheet-h',(w?0:h)+'px')})}
 sheet.addEventListener('transitionend',placeFabs);window.addEventListener('resize',placeFabs);
@@ -163,7 +163,7 @@ document.getElementById('addBtn').onclick=()=>{draft={cat:'manger',ll:null};view
 function addView(){return `<button class="back" id="bk">← Annuler</button>
   <div class="form"><h3 style="margin:0;font:700 18px var(--f-display)">Ajouter un lieu</h3>
   <label>Lien Google Maps, Instagram ou TikTok<input id="f-url" type="url" placeholder="Colle un lien ici" value="${esc(draft.url||'')}"></label>
-  <div><div class="hint" style="margin-bottom:6px;font-weight:600">Catégorie</div><div class="cats" id="f-cats">${CATS.filter(c=>c.id!=='route').map(c=>`<button type="button" data-c="${c.id}" aria-pressed="${draft.cat===c.id}">${c.label}</button>`).join('')}</div></div>
+  <div><div class="hint" style="margin-bottom:6px;font-weight:600">Catégorie</div><div class="cats" id="f-cats">${CATS.filter(c=>c.id!=='route'&&c.id!=='rando').map(c=>`<button type="button" data-c="${c.id}" aria-pressed="${draft.cat===c.id}">${c.label}</button>`).join('')}</div></div>
   <label>Nom<input id="f-name" type="text" placeholder="Ex. Ramen Fuunji" value="${esc(draft.name||'')}"></label>
   <label>Note<textarea id="f-note" placeholder="Pourquoi tu veux y aller, horaires, prix…">${esc(draft.note||'')}</textarea></label>
   <p class="hint" id="f-pos">${draft.ll?'Position : '+draft.ll.map(x=>x.toFixed(4)).join(', '):'Pas de position. Colle un lien Google Maps complet, ou touche la carte.'}</p>
