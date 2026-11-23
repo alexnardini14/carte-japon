@@ -1,0 +1,188 @@
+{
+ "stages": [
+  {
+   "n": 1,
+   "city": "Tokyo",
+   "ll": [
+    35.68,
+    139.76
+   ],
+   "from": "1 sept.",
+   "to": "15 oct. 2027",
+   "m": [
+    0,
+    1
+   ],
+   "txt": "Arrivée, carte de séjour, mairie, banque, SIM. Base en share house pour démarrer."
+  },
+  {
+   "n": 2,
+   "city": "Kyoto",
+   "ll": [
+    35.01,
+    135.77
+   ],
+   "from": "15 oct.",
+   "to": "30 nov.",
+   "m": [
+    1,
+    2
+   ],
+   "txt": "Saison des momiji (érables rouges), mi-novembre au top."
+  },
+  {
+   "n": 3,
+   "city": "Osaka",
+   "ll": [
+    34.69,
+    135.5
+   ],
+   "from": "1 déc.",
+   "to": "14 déc.",
+   "m": [
+    3
+   ],
+   "txt": "Street food, Nara et Kobe en aller-retour."
+  },
+  {
+   "n": 4,
+   "city": "Niseko · Hokkaido",
+   "ll": [
+    42.86,
+    140.7
+   ],
+   "from": "15 déc.",
+   "to": "fin fév. 2028",
+   "m": [
+    3,
+    4,
+    5
+   ],
+   "txt": "Job saisonnier station de ski (logement staff). Sapporo Snow Festival début février."
+  },
+  {
+   "n": 5,
+   "city": "Fukuoka · Kyushu",
+   "ll": [
+    33.59,
+    130.4
+   ],
+   "from": "mars",
+   "to": "",
+   "m": [
+    6
+   ],
+   "txt": "Yatai, onsen de Beppu, début des sakura fin mars."
+  },
+  {
+   "n": 6,
+   "city": "Kanazawa · Alpes",
+   "ll": [
+    36.56,
+    136.65
+   ],
+   "from": "avril",
+   "to": "",
+   "m": [
+    7
+   ],
+   "txt": "Takayama, Shirakawa-go, Nakasendo. Sakura plus tardifs en altitude."
+  },
+  {
+   "n": 7,
+   "city": "Okinawa",
+   "ll": [
+    26.21,
+    127.68
+   ],
+   "from": "mai 2028",
+   "to": "",
+   "m": [
+    8
+   ],
+   "txt": "Plages avant la saison des pluies, fin du PVT."
+  }
+ ],
+ "trails": [
+  {
+   "name": "Kumano Kodo · Nakahechi",
+   "city": "Wakayama",
+   "km": "38 km · 3 jours",
+   "note": "Chemin de pèlerinage, nuits en minshuku.",
+   "pts": [
+    [
+     33.79,
+     135.48
+    ],
+    [
+     33.8,
+     135.52
+    ],
+    [
+     33.83,
+     135.57
+    ],
+    [
+     33.84,
+     135.62
+    ],
+    [
+     33.82,
+     135.68
+    ],
+    [
+     33.84,
+     135.77
+    ]
+   ]
+  },
+  {
+   "name": "Nakasendo · Magome → Tsumago",
+   "city": "Nagano / Gifu",
+   "km": "8 km · 3 h",
+   "note": "Ancienne route postale, villages edo.",
+   "pts": [
+    [
+     35.527,
+     137.566
+    ],
+    [
+     35.54,
+     137.575
+    ],
+    [
+     35.557,
+     137.583
+    ],
+    [
+     35.577,
+     137.596
+    ]
+   ]
+  },
+  {
+   "name": "Mont Takao",
+   "city": "Tokyo",
+   "km": "4 km · 2 h",
+   "note": "À 1 h de Shinjuku, vue sur le Fuji par temps clair.",
+   "pts": [
+    [
+     35.6325,
+     139.27
+    ],
+    [
+     35.629,
+     139.26
+    ],
+    [
+     35.626,
+     139.25
+    ],
+    [
+     35.6251,
+     139.2437
+    ]
+   ]
+  }
+ ]
+}
