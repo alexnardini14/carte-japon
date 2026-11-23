@@ -184,7 +184,7 @@ let tt;function toast(t){let el=document.querySelector('.toast');if(!el){el=docu
 
 function reindex(){PLACES.forEach((p,i)=>{p._i=i;p.ll=[p.lat,p.lng]})}
 async function start(){
-  try{const [pl,tr]=await Promise.all([fetch('data/places.json').then(r=>r.json()),fetch('data/trip.json').then(r=>r.json())]);
+  try{const [pl,tr]=await Promise.all([fetch('data/places.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/trip.json',{cache:'no-cache'}).then(r=>r.json())]);
     PLACES=pl.concat(loadLocal());STAGES=tr.stages;TRAILS=tr.trails.map(t=>({...t,cat:'rando',ll:t.pts[0],ex:true,tags:[t.km]}));}
   catch(e){toast('Impossible de charger les lieux');}
   reindex();renderChips();renderSubs();render();placeFabs();
@@ -192,3 +192,10 @@ async function start(){
 }
 start();
 if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+
+// Mise à jour automatique quand on revient sur l'appli (écran d'accueil = pas de bouton actualiser)
+let lastLoad=Date.now();
+async function refreshData(){try{const pl=await fetch('data/places.json',{cache:'no-cache'}).then(r=>r.json());lastLoad=Date.now();
+  const before=PLACES.filter(p=>!p.local).length;PLACES=pl.concat(PLACES.filter(p=>p.local));reindex();drawPlaces();renderChips();renderSubs();if(!view)render();
+  const diff=pl.length-before;if(diff>0)toast(diff+' nouveau'+(diff>1?'x':'')+' lieu'+(diff>1?'x':''))}catch(e){}}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&Date.now()-lastLoad>60000)refreshData()});
