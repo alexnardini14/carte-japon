@@ -1,0 +1,391 @@
+{
+ "source": "Guide des pvtistes au Japon (pvtistes.net), 2e édition",
+ "sections": [
+  {
+   "id": "visa",
+   "t": "Demande du visa PVT",
+   "d": "À faire en personne à l'ambassade (Paris, sur rendez-vous) ou au consulat dont tu dépends. Réponse en ~1 semaine à Paris. Gratuit. Une fois le visa obtenu, tu as 1 an pour entrer au Japon.",
+   "g": [
+    {
+     "t": "Obligatoires",
+     "items": [
+      {
+       "id": "visa-0",
+       "t": "Formulaire de demande de visa rempli et signé à la main (en anglais)"
+      },
+      {
+       "id": "visa-1",
+       "t": "Photo d'identité couleur 45×35 mm, moins de 6 mois, collée sur le formulaire"
+      },
+      {
+       "id": "visa-2",
+       "t": "Passeport valide + photocopie de la page d'identité (justificatif de domicile si l'adresse dépend d'une autre circonscription)"
+      },
+      {
+       "id": "visa-3",
+       "t": "Relevé de compte non bloqué avec au moins 4 500 € (option conseillée)"
+      },
+      {
+       "id": "visa-4",
+       "t": "Lettre de motivation personnelle (anglais ou français)"
+      },
+      {
+       "id": "visa-5",
+       "t": "Programme de séjour réaliste et budgété (activités touristiques, travail, volontariat)"
+      },
+      {
+       "id": "visa-6",
+       "t": "CV (anglais ou français)"
+      },
+      {
+       "id": "visa-7",
+       "t": "Certificat médical de bonne santé de moins d'1 mois (simple visite chez le généraliste)"
+      },
+      {
+       "id": "visa-8",
+       "t": "Pas d'agrafes dans le dossier"
+      },
+      {
+       "id": "visa-9",
+       "t": "Prendre rendez-vous / déposer le dossier"
+      },
+      {
+       "id": "visa-10",
+       "t": "Récupérer le passeport avec le visa (procuration possible avec le ticket de retrait)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "depart",
+   "t": "Avant le départ",
+   "d": "La to do list récapitulative du guide.",
+   "g": [
+    {
+     "t": "Obligatoires",
+     "items": [
+      {
+       "id": "depart-0",
+       "t": "Acheter son billet d'avion"
+      },
+      {
+       "id": "depart-1",
+       "t": "Préparer sa valise"
+      },
+      {
+       "id": "depart-2",
+       "t": "Si traitement de plus d'un mois : remplir le formulaire « Yunyu Kakunin-sho »"
+      },
+      {
+       "id": "depart-3",
+       "t": "Prévenir l'assurance maladie de son départ (dans le mois qui suit le départ)"
+      },
+      {
+       "id": "depart-4",
+       "t": "Prévenir les organismes qui te versent de l'argent (APL, RSA…)"
+      }
+     ]
+    },
+    {
+     "t": "Très fortement recommandés",
+     "items": [
+      {
+       "id": "depart-5",
+       "t": "Vérifier la validité du passeport (le renouveler si besoin)"
+      },
+      {
+       "id": "depart-6",
+       "t": "Trouver un logement temporaire pour l'arrivée"
+      },
+      {
+       "id": "depart-7",
+       "t": "Souscrire une assurance PVT (rapatriement + responsabilité civile)"
+      },
+      {
+       "id": "depart-8",
+       "t": "Résilier ses abonnements (Internet, téléphone, salle de sport, cinéma…)"
+      },
+      {
+       "id": "depart-9",
+       "t": "Faire un bilan de santé"
+      },
+      {
+       "id": "depart-10",
+       "t": "Rendez-vous avec son banquier pour le prévenir du départ"
+      },
+      {
+       "id": "depart-11",
+       "t": "Après avoir quitté son emploi : s'inscrire à France Travail et suspendre ses droits avant le départ"
+      },
+      {
+       "id": "depart-12",
+       "t": "Quitter son logement (préavis, stockage des affaires…)"
+      },
+      {
+       "id": "depart-13",
+       "t": "Donner une nouvelle adresse postale aux impôts"
+      },
+      {
+       "id": "depart-14",
+       "t": "Ouvrir un compte en banque en ligne (si besoin)"
+      },
+      {
+       "id": "depart-15",
+       "t": "Vérifier que ses vaccins sont à jour"
+      },
+      {
+       "id": "depart-16",
+       "t": "Donner procuration à une personne de confiance (démarches, élections)"
+      },
+      {
+       "id": "depart-17",
+       "t": "Scanner ses documents importants, les mettre en ligne et les imprimer"
+      }
+     ]
+    },
+    {
+     "t": "Facultatif mais très utile",
+     "items": [
+      {
+       "id": "depart-18",
+       "t": "Apprendre quelques bases de japonais"
+      },
+      {
+       "id": "depart-19",
+       "t": "Télécharger les applis utiles (voir plus bas)"
+      },
+      {
+       "id": "depart-20",
+       "t": "Voir comment apporter / se faire envoyer son argent"
+      },
+      {
+       "id": "depart-21",
+       "t": "Vider les données de ses appareils"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "apps",
+   "t": "Applis à télécharger",
+   "d": "La liste du guide. Certaines sont bloquées selon le pays.",
+   "g": [
+    {
+     "t": "Japonais",
+     "items": [
+      {
+       "id": "apps-0",
+       "t": "JA Sensei (apprendre le japonais)"
+      },
+      {
+       "id": "apps-1",
+       "t": "Google Traduction (mode appareil photo pour les menus)"
+      },
+      {
+       "id": "apps-2",
+       "t": "Kotoba (dictionnaire)"
+      }
+     ]
+    },
+    {
+     "t": "Quotidien",
+     "items": [
+      {
+       "id": "apps-3",
+       "t": "NHK World Japan (actualités)"
+      },
+      {
+       "id": "apps-4",
+       "t": "Yurekuru Call (alertes séisme)"
+      },
+      {
+       "id": "apps-5",
+       "t": "Safety Tips et/ou Japan Shelter (catastrophes naturelles)"
+      },
+      {
+       "id": "apps-6",
+       "t": "LINE (messagerie)"
+      },
+      {
+       "id": "apps-7",
+       "t": "Easy Currency (conversion)"
+      },
+      {
+       "id": "apps-8",
+       "t": "My Mizu (points d'eau potable)"
+      },
+      {
+       "id": "apps-9",
+       "t": "L'appli de ta banque"
+      }
+     ]
+    },
+    {
+     "t": "Voyage et resto",
+     "items": [
+      {
+       "id": "apps-10",
+       "t": "Rome2Rio (bus de nuit, trajets)"
+      },
+      {
+       "id": "apps-11",
+       "t": "Japan Official Travel App"
+      },
+      {
+       "id": "apps-12",
+       "t": "Hostelworld / Booking / Airbnb"
+      },
+      {
+       "id": "apps-13",
+       "t": "Gurunavi (restos)"
+      },
+      {
+       "id": "apps-14",
+       "t": "HappyCow (végé)"
+      },
+      {
+       "id": "apps-15",
+       "t": "Tabete (anti-gaspi, depuis le Japon)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arrivee",
+   "t": "À l'arrivée au Japon",
+   "d": "Conseil du guide : pose-toi 2 à 3 semaines au même endroit pour tout régler, certains papiers arrivent par la poste.",
+   "g": [
+    {
+     "t": "Obligatoires",
+     "items": [
+      {
+       "id": "arrivee-0",
+       "t": "Récupérer sa carte de résident (à l'aéroport)"
+      },
+      {
+       "id": "arrivee-1",
+       "t": "Déclarer son adresse à la mairie, inscrite au dos de la carte, dans les 14 jours"
+      },
+      {
+       "id": "arrivee-2",
+       "t": "Souscrire à la Sécurité sociale japonaise"
+      },
+      {
+       "id": "arrivee-3",
+       "t": "Souscrire à la retraite japonaise"
+      }
+     ]
+    },
+    {
+     "t": "Très fortement recommandées",
+     "items": [
+      {
+       "id": "arrivee-4",
+       "t": "Prendre une carte de transport IC (Suica, Pasmo… physique ou sur le téléphone)"
+      },
+      {
+       "id": "arrivee-5",
+       "t": "Prendre une carte SIM japonaise et/ou un pocket wifi"
+      },
+      {
+       "id": "arrivee-6",
+       "t": "S'inscrire à My Number"
+      },
+      {
+       "id": "arrivee-7",
+       "t": "Ouvrir un compte en banque"
+      },
+      {
+       "id": "arrivee-8",
+       "t": "S'inscrire au Registre des Français établis hors de France"
+      }
+     ]
+    },
+    {
+     "t": "Facultatives",
+     "items": [
+      {
+       "id": "arrivee-9",
+       "t": "Faire traduire son permis de conduire auprès de la JAF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fin",
+   "t": "Avant de quitter le Japon",
+   "d": "Garde bien tous tes contrats, fiches de paie et relevés, ils peuvent servir au retour.",
+   "g": [
+    {
+     "t": "À faire",
+     "items": [
+      {
+       "id": "fin-0",
+       "t": "Donner son préavis au travail (15 jours à 1 mois avant)"
+      },
+      {
+       "id": "fin-1",
+       "t": "Résilier son abonnement téléphonique"
+      },
+      {
+       "id": "fin-2",
+       "t": "Prévenir son logeur, résilier eau, électricité, Internet"
+      },
+      {
+       "id": "fin-3",
+       "t": "Rendre sa carte IC pour récupérer la caution (ou la garder en souvenir)"
+      },
+      {
+       "id": "fin-4",
+       "t": "Transférer son argent en France (Wise…) ou le retirer, puis fermer le compte japonais"
+      },
+      {
+       "id": "fin-5",
+       "t": "Signaler son départ à la mairie et quitter la Sécurité sociale japonaise"
+      },
+      {
+       "id": "fin-6",
+       "t": "Se radier du registre des Français au Japon (en ligne)"
+      },
+      {
+       "id": "fin-7",
+       "t": "À l'aéroport, déclarer son départ à l'immigration (carte de résident poinçonnée)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "retour",
+   "t": "De retour en France",
+   "d": "",
+   "g": [
+    {
+     "t": "À faire",
+     "items": [
+      {
+       "id": "retour-0",
+       "t": "S'inscrire à France Travail et récupérer ses droits"
+      },
+      {
+       "id": "retour-1",
+       "t": "Si pas de droits au chômage : demander les autres aides"
+      },
+      {
+       "id": "retour-2",
+       "t": "Mettre à jour son CV avec l'expérience PVT"
+      },
+      {
+       "id": "retour-3",
+       "t": "Rouvrir ses droits à la Sécurité sociale ou demander la PUMa"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
